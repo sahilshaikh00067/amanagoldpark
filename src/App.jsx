@@ -732,7 +732,7 @@ function ContactForm() {
       <label className="flex items-start gap-2 text-xs text-[#6E6455] mb-5">
         <input required type="checkbox" className="mt-0.5 accent-[#0F5132]" checked={agree} onChange={(e) => setAgree(e.target.checked)} />
         <span>
-          I agree to Recive Rcs, Whatsapp, to the <a href="#privacy" className="text-[#0F5132] underline">Privacy Policy</a> and{" "}
+          I Agree to Recive Rcs, Whatsapp, to the <a href="#privacy" className="text-[#0F5132] underline">Privacy Policy</a> and{" "}
           <a href="#terms" className="text-[#0F5132] underline">Terms &amp; Conditions</a>.
         </span>
       </label>
