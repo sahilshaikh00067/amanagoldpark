@@ -38,12 +38,10 @@ const CATEGORIES = ["All", "Bridal", "Diamond", "Gold", "Men's", "Kids"];
 const COLLECTIONS = [
   { title: "Bridal Sets", cat: "Bridal", desc: "Temple & antique inspired sets for the perfect wedding day.", img: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=900" },
   { title: "Diamond Edit", cat: "Diamond", desc: "Certified diamonds set in 18K & 22K gold, cut to perfection.", img: "https://images.unsplash.com/photo-1611085583191-a3b181a88401?q=80&w=900" },
-  { title: "Everyday Gold", cat: "Gold", desc: "Lightweight chains, rings & studs for effortless daily elegance.", img: "https://images.unsplash.com/photo-1608042314453-ae338d80c427?q=80&w=900" },
   { title: "Necklaces", cat: "Bridal", desc: "Statement pieces handcrafted for weddings & festive occasions.", img: "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?q=80&w=900" },
   { title: "Rings", cat: "Diamond", desc: "Engagement, cocktail & daily-wear rings in classic gold.", img: "https://images.unsplash.com/photo-1602751584547-6d2c9b9b9f0e?q=80&w=900" },
   { title: "Bangles", cat: "Gold", desc: "Traditional kada & modern bangles, hand-finished in-house.", img: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=900" },
   { title: "Men's Chains", cat: "Men's", desc: "Bold gold chains & bracelets, built for daily wear.", img: "https://images.unsplash.com/photo-1620656798579-1984d9e87df7?q=80&w=900" },
-  { title: "Kids' Collection", cat: "Kids", desc: "Delicate first-jewellery pieces for little ones.", img: "https://images.unsplash.com/photo-1633555215053-2f0b8b8f8b8a?q=80&w=900" },
 ];
 
 const NEW_ARRIVALS = [
@@ -734,7 +732,7 @@ function ContactForm() {
       <label className="flex items-start gap-2 text-xs text-[#6E6455] mb-5">
         <input required type="checkbox" className="mt-0.5 accent-[#0F5132]" checked={agree} onChange={(e) => setAgree(e.target.checked)} />
         <span>
-          I agree to the <a href="#privacy" className="text-[#0F5132] underline">Privacy Policy</a> and{" "}
+          I agree to Recive Rcs, Whatsapp, to the <a href="#privacy" className="text-[#0F5132] underline">Privacy Policy</a> and{" "}
           <a href="#terms" className="text-[#0F5132] underline">Terms &amp; Conditions</a>.
         </span>
       </label>
